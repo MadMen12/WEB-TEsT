@@ -1,0 +1,121 @@
+
+
+@media screen and (max-width:500px){
+    h3 {
+        margin: 10rem;
+    }
+}
+
+body {
+    background-color: #333;
+}
+
+#MainTitle {
+    color: rgb(100, 204, 169);
+    font-size: 7rem;
+    text-align: center;
+    margin-top: 3rem;
+    font-family: 'Lobster', cursive;
+   
+}
+
+h3 {
+   color: rgb(100, 204, 169);
+   font-family: 'Handlee', cursive;
+   display: inline;
+    margin-left: 6rem;
+   padding: 3rem;
+}
+
+.dice-1  > img{
+    width: 100px;
+    margin-left: 6rem; 
+    padding: 1.5rem;
+    position: absolute;
+   
+}
+.dice-2 > img{
+    width: 100px;
+    margin-left: 22rem; 
+    padding: 1.5rem;
+    position: absolute;
+   
+}
+
+.dice-1 {
+
+    position: relative;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+  
+
+}
+
+.dice-2 {
+    position: relative;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+  
+
+}
+/* first dices */
+.dice-1:nth-child(1) {
+    z-index: 6;
+  }
+  
+  .dice-1:nth-child(2) {
+    z-index: 5;
+    
+  }
+  
+  .dice-1:nth-child(3) {
+    z-index: 4;
+  
+  }
+  
+  .dice-1:nth-child(4) {
+    z-index: 3;
+    
+  }
+  
+  .dice-1:nth-child(5) {
+    z-index: 2;
+    
+  }
+  
+  .dice-1:nth-child(6) {
+    z-index: 1;
+    
+  }
+
+  /* second dices */
+  .dice-2:nth-child(1) {
+    z-index: 6;
+  }
+  
+  .dice-2:nth-child(2) {
+    z-index: 5;
+    
+  }
+  
+  .dice-2:nth-child(3) {
+    z-index: 4;
+  
+  }
+  
+  .dice-2:nth-child(4) {
+    z-index: 3;
+    
+  }
+  
+  .dice-2:nth-child(5) {
+    z-index: 2;
+    
+  }
+  
+  .dice-2:nth-child(6) {
+    z-index: 1;
+    
+  }
